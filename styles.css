@@ -101,3 +101,16 @@ a:visited {
 .features-list-text p {
     margin-bottom: 2.5em;
 }
+
+/* footer */
+footer {
+    width: 80%;
+    background-color:#FF900E1A;
+    text-align: center;
+    margin: 10em auto;
+    border-radius: 5px;
+}
+footer p {
+    font-size: 1.2em;
+    padding: 2.5em 0;
+}
