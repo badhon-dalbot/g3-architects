@@ -155,6 +155,41 @@ a:visited {
     font-size: 3em;
     font-weight: 500;
 }
+/* Projects */
+.project-text {
+    width: 50%;
+    margin-top: 7em;
+    margin-bottom: 5em;
+}
+.project-text h1 {
+    font-size: 2.8em;
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+.projects {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6em;
+}
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #FF900E;
+    border-radius: 6px;
+    height: 14em;
+    width: 14em;
+    justify-content: space-evenly;
+}
+.project img {
+    width: 2.8em;
+    height: 2.8em;
+  
+}
+.project h1,p{
+    margin: 0;
+   
+}
 
 /* Sponsors */
 .sponsors h1 {

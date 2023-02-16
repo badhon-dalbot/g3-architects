@@ -52,6 +52,17 @@
 .features-img {
     width: 100%;
 }
+/* Projects */
+.project-text {
+    width: 100%;
+}
+.projects {
+    flex-direction: column;
+
+}
+.project {
+    margin: 1em;
+}
 /* sponsors */
 .sponsors p {
     padding: 0;
