@@ -37,6 +37,21 @@
 .features-list-text {
     margin: 2em 0 0 1em;
 }
+/* Features */
+.features-container {
+    flex-direction: column;
+}
+.features {
+    width: 100%;
+    margin: .5em;
+}
+.features-header h1 {
+    margin: 0;
+    padding: 0;
+}
+.features-img {
+    width: 100%;
+}
 /* sponsors */
 .sponsors p {
     padding: 0;

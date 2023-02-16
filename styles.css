@@ -101,6 +101,61 @@ a:visited {
 .features-list-text p {
     margin-bottom: 2.5em;
 }
+/* Features */
+.features-container {
+    display: flex;
+    justify-content: space-between;
+}
+.features {
+    margin-right: 3em;
+    width: 50%;
+}
+.features-header {
+    display: flex;
+}
+.header-line {
+    border-left: 5px solid #FF900E;
+    height:6.5em;
+}
+.features-header h1{
+    font-size: 2.8em;
+    margin: 0;
+    margin-left: .5em;
+    padding-right: 1.5em;
+}
+.feature {
+    margin-top: 1em;
+    box-shadow: 0.5em 0.5em 0.5em 0.5em  #F3F3F3;
+    border-radius: 5px;
+}
+.feature h1 {
+    font-size: 1.2em;
+    margin: 0;
+    padding: 1.5em 2em 0 1.5em;
+}
+.feature p {
+    font-size: 1em;
+    margin: 0;
+    padding:1.5em;
+}
+.features-img {
+    width: 50%;
+    position: relative;
+}
+.features-img img {
+    width: 100%;
+}
+.big-btn {
+    position: absolute;
+   bottom: 0.5em;
+   left: -1em;
+}
+.btn-text {
+    display: block;
+    font-size: 3em;
+    font-weight: 500;
+}
+
 /* Sponsors */
 .sponsors h1 {
     font-size: 2.8em;
