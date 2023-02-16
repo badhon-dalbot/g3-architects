@@ -25,5 +25,17 @@
     .banner-text p{
         margin: 2em 0 2.3em 0;
 }
+/* features list */
+.features-list{
+    flex-direction: column;
+    justify-items: center;
+}
+.features-list-imgs {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+}
+.features-list-text {
+    margin: 2em 0 0 1em;
+}
 
 }
