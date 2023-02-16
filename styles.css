@@ -1,3 +1,33 @@
-h3 {
-    color: blue;
+/* Common Styles */
+body {
+    width: 80vw;
+    margin: 0 auto;
+    background-color: #FF900E1A;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+    color: #131313; 
+}
+.logo h3 {
+    font-size: 3em;
+}
+.menu {
+    width: 40%;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+a:visited {
+    color: #131313;
 }
