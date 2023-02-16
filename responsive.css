@@ -37,5 +37,16 @@
 .features-list-text {
     margin: 2em 0 0 1em;
 }
+/* sponsors */
+.sponsors p {
+    padding: 0;
+}
+.sponsor-img {
+    flex-direction: column;
+}
 
+.sponsor-img img {
+    margin: 1em auto;
+    width: 70%;
+}
 }
