@@ -206,7 +206,30 @@ a:visited {
     justify-content: space-between;
     margin-top: 3em;
 }
-
+.about-container {
+    display: flex;
+    margin: 6em;
+}
+.about-img {
+    width: 50%;
+}
+.about-img img {
+    width: 100%;
+    border-radius: 6px;
+}
+.about-us-text {
+    width: 50%;
+    margin-left: 4em;
+}
+.about-us-text h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.about-us-text p {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+    text-align: justify;
+}
 /* footer */
 footer {
     width: 80%;
